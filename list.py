@@ -44,3 +44,14 @@ items = [
 
 items.sort(key=lambda item: item[1])
 print(items)
+
+# Pprices of item
+
+prices = list(map(lambda item: item[1], items))
+print(prices)
+
+
+# filter
+
+x = list(filter(lambda item: item[1] >= 10, items))
+print(x)
